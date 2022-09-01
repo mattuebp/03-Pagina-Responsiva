@@ -1,0 +1,175 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+.cabecalho {
+    background-color: #191919;
+    position: relative;
+}
+
+.cabecalho .logo {
+    background: url(../img/logo-menor.png) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+}
+
+.cabecalho .logo h1 {
+    font-size: 0;
+}
+
+.cabecalho nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.cabecalho ul li a {
+    color: #00688F;
+    font-size: 18px;
+}
+
+.cabecalho ul li {
+    font-size: 85%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover {
+    font-weight: bold;
+}
+
+#uma-pagina-incomum {
+    padding-bottom: 30px;
+}
+
+#uma-pagina-incomum p,
+#cadastro p {
+    text-align: center;
+    margin: 0 100px;
+    font-size: 24px;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#news {
+    background-color: #191919;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.noticia-maior {
+    margin-bottom: 30px;
+}
+
+.noticia-maior h3,
+.noticias-menores h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;    
+}
+
+.imagem-noticia-maior {
+    margin: 0 auto;
+    background: url(../img/noticia-maior.jpg) center center no-repeat;
+    max-width: 90%;
+    height: 500px;
+    margin-bottom: 10px;
+    border: solid white 1px;
+}
+
+.noticia-maior p {
+    text-align: justify;
+    font-size: 24px;
+    margin: 0 5% 10px 5%;
+}
+
+.noticias-menores {
+    text-align: center;
+}
+
+.noticia-menor-1,
+.noticia-menor-2 {
+    display: inline-block;
+    max-width: 45%;
+    font-size: 1.5rem;
+    margin: 0 20px ;
+}
+
+.noticias-menores p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.imagem-noticia-menor-1,
+.imagem-noticia-menor-2 {
+    height: 300px;
+    margin-bottom: 10px;
+    border: solid white 1px;
+}
+
+.imagem-noticia-menor-1 {
+    background: url(../img/noticia-menor-1.jpg) center center no-repeat;
+}
+
+.imagem-noticia-menor-2 {
+    background: url(../img/noticia-menor-2.png) center center no-repeat;    
+}
+
+#cadastro {
+    padding-bottom: 30px;
+}
+
+#cadastro .logo-cadastro {
+    background: url(../img/logo.png) center center no-repeat;
+    height: 500px;
+    margin-bottom: 10px;    
+}
+
+form {
+    text-align: center;
+}
+
+#contato {
+    background-color: #191919; 
+    color: white;   
+}
+
+#contato nav {
+    float: right;
+    margin-right: 30px;
+}
+
+#contato li {
+    display: inline-block;
+    margin: 10px;    
+}
+
+#contato li a {
+    color:  #00688F;
+    font-size: 18px;    
+}
+
+#contato li a:hover {
+    color:  #00688F;
+    font-weight: bold;    
+}
+
+#contato .logo {
+    margin-left: 30px;
+}
+
+
+

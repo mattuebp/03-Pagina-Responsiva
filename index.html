@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-Page Matheus Barros</title>
+
+    <link rel="shortcut icon" href="./src/img/icone.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/resets.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Playfair+Display:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="logo">
+            <h1>Home</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#uma-pagina-incomum">Uma página incomum</a></li>
+                <li><a href="#news">Notícias</a></li>
+                <li><a href="#cadastro">Cadastro</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="uma-pagina-incomum">
+            <h2>Uma página incomum</h2>
+            <p>Essa landing page será utilizada como projeto de portfólio e seu principal objetivo é verificar
+                os conhecimentos em responsividade dos elementos em dispositivos mobile. Também representa um blog de notícias
+                que reúne conceitos HTML como formulários e tags semânticas.
+            </p>
+        </section>
+        
+        <section id="news">
+            <h2>News</h2>
+            <div class="noticias">
+
+                <article class="noticia-maior">
+                    <h3>Corinthians empata no Rio contra o Fluminense, pelas semifinais da Copa do Brasil</h3>
+                    <div class="imagem-noticia-maior"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab cum deserunt dicta officia esse quia, omnis sit possimus expedita libero a mollitia velit accusantium aut sunt id perspiciatis, eaque commodi!</p>
+                </article>
+                           
+                <div class="noticias-menores">
+
+                    <article class="noticia-menor-1">
+                        <h3>PF pede investigação de ex-mulher de Bolsonaro por compra de mansão</h3>
+                        <div class="imagem-noticia-menor-1"></div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab cum deserunt dicta officia esse quia, omnis sit possimus expedita libero a mollitia velit accusantium aut sunt id perspiciatis, eaque commodi!</p>
+                    </article>
+        
+                    <article class="noticia-menor-2">
+                        <h3>Criança com nanismo que viralizou após ser alvo de bullying estará em novo filme da série Mad Max</h3>
+                        <div class="imagem-noticia-menor-2"></div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab cum deserunt dicta officia esse quia, omnis sit possimus expedita libero a mollitia velit accusantium aut sunt id perspiciatis, eaque commodi!</p>
+                    </article>
+
+                </div>
+
+            </div>
+            
+        </section>
+        
+        <section id="cadastro">
+            <h2>Cadastro</h2>
+            <div class="logo-cadastro"></div>
+            <p>
+                Cadastre aqui o seu email para receber notícias em sua caixa todas as manhãs!
+            </p>
+            <form action="./index.html" method="get">
+                    
+                <br>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="nome">
+                <br>
+
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" placeholder="e-mail">
+                <br>
+                
+                <br>
+                <input type="submit" id="enviar">
+                
+            </form>
+        </section>          
+    </main>   
+    <footer id="contato">
+        
+        <h2>Contato</h2>
+
+        <a href="index.html" class="logo">
+            <img src="./src/img/logo-menor.png" alt="logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/matheus-barros-7a1048204/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/mattuebp/mattuebp" target="_blank">GitHub</a></li>
+                <li><a href="mailto:matheus_prais@outlook.com" target="_blank">E-mail</a></li>
+            </ul>
+        </nav>
+
+    </footer>    
+</body>
+</html>
